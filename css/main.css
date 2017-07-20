@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Tahoma; sans-serif;
+	background-color: #F8F8F8;
+}
+
+.navigation {
+  background-color: #FE7E00;
+  height: 104px;
+}
+
+.navigation img, h1 {
+	padding-left: 15px;
+}
+
+.navigation img {
+	float: left;
+  height: 35px;
+	width: 45px;
+	padding-left: 80px;
+	padding-top: 16px;
+	margin-top: 21px;
+}
+
+.navigation h1 {
+  color: #FFF5D4;
+  font-family: Arial; sans-serif;
+  float: left;
+  margin-top: 33px;
+  padding: 0;
+  font-weight: normal;
+	font-size: 32px;
+	letter-spacing: -1px;
+}
+
+.navigation .logo {
+  font-weight: bold;
+}
+
+.navigation ul {
+  float: right;
+  padding: 22px 225px;
+  word-spacing: 60px;
+	margin-top: 21px;
+	margin-right: -171px;
+}
+
+.navigation ul .case {
+  word-spacing: normal;
+  display: inline-block;
+}
+
+.navigation li {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #FFF5D4;
+  font-weight: 100;
+	font-size: 16px;
+}
+
+/** main body begins **/
+/** Search  bar first; magnifying glass icon from favicon **/
+.search {
+  position: relative;
+	display: inline-block;
+  float: right;
+	margin-top: 2px;
+	margin-left: 577px;
+	margin-right: 54px;
+  color: #aaa;
+  font-size: 16px;
+}
+
+.search input {
+  width: 285px;
+  height: 50px;
+  text-transform: uppercase;
+  background: #f1f1f1;
+  border: 1px solid #aaa;
+}
+
+.search input {
+	text-indent: 32px;
+}
+
+/** magnifying glass icon **/
+
+.search .fa-search {
+  position: absolute;
+  top: 18px;
+  left: 225px;
+}
+
+/** main div area called "middle" **/
+.middle {
+	display: inline-block;
+}
+
+.middle img {
+	float:left;
+	height: 480px;
+	width: 520px;
+	margin-top: 73px;
+	margin-left: 50px;
+}
+
+.middle h1 {
+	display: inline-block;
+	float: right;
+	margin-top: 151px;
+	margin-left: -29px;
+	margin-right: 59px;
+	line-height: 55px;
+	font-size: 41px;
+	word-spacing: 7px;
+	font-weight: 100;
+	color: #C78950;
+}
+
+.middle h1 .midlogo {
+	font-weight: bold;
+}
+
+.middle h1 .midtext {
+	color: #7ACCC8;
+	font-weight: bold;
+}
+
+/** button time! **/
+.middle button {
+  border: none;
+  color: #FFF5D4;
+  margin-left: 160px;
+	margin-right: 15px;
+	margin-top: 74px;
+  text-align: center;
+  text-decoration: none;
+	text-transform: uppercase;
+  display: inline-block;
+  font-size: 16px;
+	border-radius: 2px;
+}
+
+.middle .quotebutton {
+	background-color: #FE7E00;
+	margin-left: 33px;
+	width: 280px;
+	height: 55px;
+}
+
+.middle .casebutton {
+	background-color: #7ACCC8;
+	margin-left: 12px;
+	width: 280px;
+	height: 55px;
+}
+
+/** Footer **/
+footer {
+	background-color: #7ACCC8;
+	height: 104px;
+}
